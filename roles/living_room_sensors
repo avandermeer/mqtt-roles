@@ -1,0 +1,7 @@
+#slaapkamer_sensors
+
+user %username%
+
+topic readwrite huis/slaapkamer/sensors/%p1%/%username%/#
+topic read huis/slaapkamer/sensors/%p1%/#
+topic write log/%username%/#
